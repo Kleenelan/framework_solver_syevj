@@ -1,0 +1,4 @@
+BLAS_DIR=/home/hipper/ex_hipsolver_rocsolver_suitesparse/local_d/rocblas/lib
+
+export LD_LIBRARY_PATH=${PWD}/lib:${BLAS_DIR}
+
